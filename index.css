@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0;
     background: #00183D;
     text-align: center;
     color: #FFA200;
@@ -11,9 +12,10 @@ body {
 
 #container {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    margin: auto;
-    width: 70%;
+    height: 70vh;
+    min-height: 400px;
     min-width: 640px;
 }
 
@@ -34,11 +36,11 @@ body {
     font-family: 'Cursed Timer'
 }
 
-button, button:focus {
+.btn, .btn:focus {
     background: #004306;
     color: #FFA200;
     font-size: 20px;
-    margin: 50px 5px 0 5px;
+    margin: 20px 5px 0 5px;
     padding: 5px 20px; 
     border: none;
     border-radius: 15px;
