@@ -1,7 +1,7 @@
 let homeScore = 0
 let awayScore = 0
-let homeScoreEl = document.getElementById("home-score-el")
-let awayScoreEl = document.getElementById("away-score-el")
+const homeScoreEl = document.getElementById("home-score-el")
+const awayScoreEl = document.getElementById("away-score-el")
 
 
 //add 1 point to score
