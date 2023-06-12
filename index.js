@@ -6,41 +6,33 @@ const awayScoreEl = document.getElementById("away-score-el")
 
 //add 1 point to score
 function add1PointHomeScore() {
-    homeScore += 1
-    homeScoreEl.textContent = homeScore
+    homeScoreEl.textContent = homeScore += 1
 }
 
 function add1PointAwayScore() {
-    awayScore += 1
-    awayScoreEl.textContent = awayScore
+    awayScoreEl.textContent = awayScore += 1
 }
 
 //add 2 points to score
 function add2PointsHomeScore() {
-    homeScore += 2
-    homeScoreEl.textContent = homeScore
+    homeScoreEl.textContent = homeScore += 2
 }
 
 function add2PointsAwayScore() {
-    awayScore += 2
-    awayScoreEl.textContent = awayScore
+    awayScoreEl.textContent = awayScore += 2
 }
 
 //add 3 points to score
 function add3PointsHomeScore() {
-    homeScore += 3
-    homeScoreEl.textContent = homeScore
+    homeScoreEl.textContent = homeScore += 3
 }
 
 function add3PointsAwayScore() {
-    awayScore += 3
-    awayScoreEl.textContent = awayScore
+    awayScoreEl.textContent = awayScore += 3
 }
 
 //start new game
 function startNewGame() {
-    homeScore = 0
-    awayScore = 0
-    homeScoreEl.textContent = 0
-    awayScoreEl.textContent = 0
+    homeScoreEl.textContent = homeScore = 0
+    awayScoreEl.textContent = awayScore = 0
 }
